@@ -1,0 +1,50 @@
+@import url(/Assets/base.css);
+
+body{
+    background-color: var(--colors-background);
+    color: var(--colors-rasinblack);
+    font-family: var(--fonts-mono);
+}
+
+a{
+    text-decoration: none;
+    color: var(--font-white);
+    transition: var(--transitions-default);
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.logo-text{
+    font-size: var(--fontSizes-xl);
+}
+.card-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.quiz-card{
+    background-color: #313552;
+    border-radius: var(--rounded-lg);
+    color: var(--colorw);
+    padding: var(--space-7);
+    transition: var(--transitions-default);
+}
+
+.quiz-card:hover{
+    transform: scale(1.1);
+    box-shadow: var(--shadows-lg);
+}
+
+.quiz-card:active{
+    transform: scale(1);
+}
