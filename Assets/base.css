@@ -161,4 +161,10 @@
     font-family: var(--fonts-sans);
   }
   
+.flex{
+  display: flex;
+}
 
+.justify-between{
+  justify-content: space-evenly;
+}
