@@ -1,6 +1,5 @@
 
 
-
 # Kiwiz
 
 A simple Quiz taking App
@@ -14,5 +13,6 @@ A simple Quiz taking App
 ## Screenshots
 
 ![App Screenshot](https://raw.githubusercontent.com/saurabhan/kiwiz/main/Assets/kiwiz.png)
+
 
 
